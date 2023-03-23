@@ -58,43 +58,47 @@ extern void ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C
 extern void EnemyScript_Update_mE4A99F6DEE43C96EA17AF4425BC1987391B78B2A (void);
 // 0x00000017 System.Void EnemyScript::.ctor()
 extern void EnemyScript__ctor_m3578E55F1FD7A43C43130360652F7621F8BB8628 (void);
-// 0x00000018 System.Void SpawnManager::Start()
+// 0x00000018 System.Void LaserScript::OnCollisionEnter(UnityEngine.Collision)
+extern void LaserScript_OnCollisionEnter_m28BCC7B48F2E0FE1AE11E08875A01AE827A94C25 (void);
+// 0x00000019 System.Void LaserScript::.ctor()
+extern void LaserScript__ctor_m91ED62129E310C162B4AA8887EEB99E0F77D6AA5 (void);
+// 0x0000001A System.Void SpawnManager::Start()
 extern void SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF (void);
-// 0x00000019 System.Collections.IEnumerator SpawnManager::startSpawning()
+// 0x0000001B System.Collections.IEnumerator SpawnManager::startSpawning()
 extern void SpawnManager_startSpawning_m3D1B69E5FB497AD3CFEFAA651128CE7CA60A9BC8 (void);
-// 0x0000001A System.Void SpawnManager::.ctor()
+// 0x0000001C System.Void SpawnManager::.ctor()
 extern void SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A (void);
-// 0x0000001B System.Void SpawnManager/<startSpawning>d__3::.ctor(System.Int32)
+// 0x0000001D System.Void SpawnManager/<startSpawning>d__3::.ctor(System.Int32)
 extern void U3CstartSpawningU3Ed__3__ctor_mDB3DF67CD3613204DEFD26F5B138342B15071EA4 (void);
-// 0x0000001C System.Void SpawnManager/<startSpawning>d__3::System.IDisposable.Dispose()
+// 0x0000001E System.Void SpawnManager/<startSpawning>d__3::System.IDisposable.Dispose()
 extern void U3CstartSpawningU3Ed__3_System_IDisposable_Dispose_m8EF5414024EAA4C37318A61E02D40515BFF5DA97 (void);
-// 0x0000001D System.Boolean SpawnManager/<startSpawning>d__3::MoveNext()
+// 0x0000001F System.Boolean SpawnManager/<startSpawning>d__3::MoveNext()
 extern void U3CstartSpawningU3Ed__3_MoveNext_mED61BC9FFB627A8680BE95F149DBF80380888CCF (void);
-// 0x0000001E System.Object SpawnManager/<startSpawning>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000020 System.Object SpawnManager/<startSpawning>d__3::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CstartSpawningU3Ed__3_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m09D8BFBC79A2C29E378B137F7AD61FBDF75BBA69 (void);
-// 0x0000001F System.Void SpawnManager/<startSpawning>d__3::System.Collections.IEnumerator.Reset()
+// 0x00000021 System.Void SpawnManager/<startSpawning>d__3::System.Collections.IEnumerator.Reset()
 extern void U3CstartSpawningU3Ed__3_System_Collections_IEnumerator_Reset_m936D822D31C6654B43378A721B39D85D8153D7B1 (void);
-// 0x00000020 System.Object SpawnManager/<startSpawning>d__3::System.Collections.IEnumerator.get_Current()
+// 0x00000022 System.Object SpawnManager/<startSpawning>d__3::System.Collections.IEnumerator.get_Current()
 extern void U3CstartSpawningU3Ed__3_System_Collections_IEnumerator_get_Current_m3ED518DA22681364D485D2100B9E04199C0B891A (void);
-// 0x00000021 UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::get_eyePrefab()
+// 0x00000023 UnityEngine.GameObject UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::get_eyePrefab()
 extern void EyePoseVisualizer_get_eyePrefab_m6512F23D4F6883D90C7ADF2787CF7DA1A55A9599 (void);
-// 0x00000022 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::set_eyePrefab(UnityEngine.GameObject)
+// 0x00000024 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::set_eyePrefab(UnityEngine.GameObject)
 extern void EyePoseVisualizer_set_eyePrefab_m9E6E43AFD4EA18C82E112A36B5749393EC5BB001 (void);
-// 0x00000023 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::Awake()
+// 0x00000025 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::Awake()
 extern void EyePoseVisualizer_Awake_m3237296F58B5CD921031975C309CE77A5FFD9501 (void);
-// 0x00000024 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::CreateEyeGameObjectsIfNecessary()
+// 0x00000026 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::CreateEyeGameObjectsIfNecessary()
 extern void EyePoseVisualizer_CreateEyeGameObjectsIfNecessary_m4D1EF25255A3CFB3BF76FB3B2C3BB2F5E1DD9D95 (void);
-// 0x00000025 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::SetVisible(System.Boolean)
+// 0x00000027 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::SetVisible(System.Boolean)
 extern void EyePoseVisualizer_SetVisible_m514AD2CF277DA2F07A3369ECE67BA0C6839F40E0 (void);
-// 0x00000026 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnEnable()
+// 0x00000028 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnEnable()
 extern void EyePoseVisualizer_OnEnable_m77596C724E408637982D2C94E6C88F7544BB649B (void);
-// 0x00000027 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnDisable()
+// 0x00000029 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnDisable()
 extern void EyePoseVisualizer_OnDisable_mA4A79EF62BA57AEE432FBDE565989EE85EE9BB8A (void);
-// 0x00000028 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnUpdated(UnityEngine.XR.ARFoundation.ARFaceUpdatedEventArgs)
+// 0x0000002A System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::OnUpdated(UnityEngine.XR.ARFoundation.ARFaceUpdatedEventArgs)
 extern void EyePoseVisualizer_OnUpdated_m1410B4A9CF4EFB9154D3C60BF2936F9DAD2AFDD0 (void);
-// 0x00000029 System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::.ctor()
+// 0x0000002B System.Void UnityEngine.XR.ARFoundation.Samples.EyePoseVisualizer::.ctor()
 extern void EyePoseVisualizer__ctor_mF72DB438177ED12343BE0DA407636D177C290D3C (void);
-static Il2CppMethodPointer s_methodPointers[41] = 
+static Il2CppMethodPointer s_methodPointers[43] = 
 {
 	AREyeManager_Awake_m4F2120E462F7436644B13230ED8B17D36F5AEF8A,
 	AREyeManager_OnEnable_mC13DEC1AE6907E23C2821FD9F2B4F5917B177AF6,
@@ -119,6 +123,8 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	ARFeatheredPlaneMeshVisualizer__cctor_m56285A000EE27A1631BE9C5BCDA5C376E5D133C3,
 	EnemyScript_Update_mE4A99F6DEE43C96EA17AF4425BC1987391B78B2A,
 	EnemyScript__ctor_m3578E55F1FD7A43C43130360652F7621F8BB8628,
+	LaserScript_OnCollisionEnter_m28BCC7B48F2E0FE1AE11E08875A01AE827A94C25,
+	LaserScript__ctor_m91ED62129E310C162B4AA8887EEB99E0F77D6AA5,
 	SpawnManager_Start_m65C9EA67649948222CFF4FBBF77BE2319D813DAF,
 	SpawnManager_startSpawning_m3D1B69E5FB497AD3CFEFAA651128CE7CA60A9BC8,
 	SpawnManager__ctor_m8DD503A0FFE79FA38CF0B7F013E54D24A04D166A,
@@ -138,7 +144,7 @@ static Il2CppMethodPointer s_methodPointers[41] =
 	EyePoseVisualizer_OnUpdated_m1410B4A9CF4EFB9154D3C60BF2936F9DAD2AFDD0,
 	EyePoseVisualizer__ctor_mF72DB438177ED12343BE0DA407636D177C290D3C,
 };
-static const int32_t s_InvokerIndices[41] = 
+static const int32_t s_InvokerIndices[43] = 
 {
 	5200,
 	5200,
@@ -163,6 +169,8 @@ static const int32_t s_InvokerIndices[41] =
 	8266,
 	5200,
 	5200,
+	4149,
+	5200,
 	5200,
 	5105,
 	5200,
@@ -186,7 +194,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	41,
+	43,
 	s_methodPointers,
 	0,
 	NULL,
