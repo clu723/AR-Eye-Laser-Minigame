@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 2468909251262933516}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.04, y: 100.00018, z: 0.04}
+  m_LocalScale: {x: 0.04, y: 1000, z: 0.04}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2417772964488661957}
@@ -120,10 +120,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2417772964488661957}
-  - component: {fileID: 6520938631194935847}
   m_Layer: 0
   m_Name: Eye Laser Prefab
-  m_TagString: Untagged
+  m_TagString: Laser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -144,15 +143,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6520938631194935847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6696638613615050577}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0cfc8dba901b1348af250c5f4d66023, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
