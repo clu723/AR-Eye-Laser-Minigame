@@ -6,8 +6,9 @@ public class LaserScript : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "Enemy")
+        if (collision.gameObject.CompareTag("Enemy"))
         {
+            ScoreManager.instance.addPoint();
             Destroy(collision.gameObject);
         }
     }
