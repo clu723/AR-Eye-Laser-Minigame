@@ -4,12 +4,21 @@ using UnityEngine;
 
 public class LaserScript : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
+        {
+            ScoreManager.instance.addPoint();
+            Destroy(collision.gameObject);
+            return;
+        }
+
+        var c = collision.GetComponent<EnemyScript>();
+        if (c != null)
         {
             ScoreManager.instance.addPoint();
             Destroy(collision.gameObject);
         }
+
     }
 }
